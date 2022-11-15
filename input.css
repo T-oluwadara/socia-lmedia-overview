@@ -1,0 +1,16 @@
+@tailwind base;
+
+body {
+  font-family: "Inter", sans-serif;
+  padding-bottom: 10px;
+}
+
+#toggle:checked ~ label div.toggle-dot {
+  @apply translate-x-4;
+}
+
+.instagram {
+  background-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+}
+@tailwind components;
+@tailwind utilities;
